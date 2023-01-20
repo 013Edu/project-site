@@ -604,6 +604,36 @@ header{
         }
        }
 
+       @media(max-width: 511px){
+        .container-text{
+         text-align: center;
+        }
+       }
+
+       @media(max-width: 376px){
+        .input-container input{
+          width: 200px;
+          padding: 1rem;
+        }
+
+        .container-botton{
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .container{
+          display: none;
+        }
+
+        #one{
+          display: none;
+        }
+
+        .container-banners{
+          display: none;
+        }
+       }
+
        
 
 
