@@ -518,6 +518,14 @@ header{
     }
    }
 
+   
+   @media(max-width: 1090px){
+    #oie{
+      width: 100%
+    }
+ }
+
+
   @media(max-width: 1040px){
    .input-container input{
     width: 600px;
@@ -538,6 +546,12 @@ header{
     }
     }
 
+    @media(max-width: 980px){
+      #one{
+        width: 100%
+      }
+   }
+
     @media(max-width: 934px){
       .input-container input{
        width: 500px;
@@ -550,6 +564,47 @@ header{
         font-size: 10px;
       }
       }
+
+      @media(max-width: 830px){
+          footer{
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+          }
+       }
+
+       
+    @media(max-width: 805px){
+      .container-text h1{
+        font-size: 32px;
+      }
+   }
+
+      @media(max-width: 545px){
+        .input-container input{
+          width: 300px;
+          margin: 2rem;
+         }
+      
+         .input-container button{
+          display: none;
+         }
+         .container-botton .content h4{
+           font-size: 10px;
+         }
+         .container-botton .content h4{
+         padding: 1rem;
+        }
+       }
+
+       @media(max-width: 532px){
+        .container-text{
+          padding: 1rem;
+          text-align: center;
+        }
+       }
+
+       
 
 
   
