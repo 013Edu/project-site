@@ -581,6 +581,9 @@ header{
    }
 
       @media(max-width: 545px){
+        .container{
+          display: none;
+        }
         .input-container input{
           width: 300px;
           margin: 2rem;
